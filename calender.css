@@ -1,0 +1,68 @@
+body {
+    background-image: url(cc1.jpg);
+    background-size: cover;
+
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    /* height: 100vh; */
+    align-items: center;
+    /* font-family: cursive; */
+  /* background-color: slateblue; */
+}
+/* h1 {
+    text-align: center;
+    margin-top: 150px; 
+}*/
+
+.main {
+    height: 250px;
+    width: 300px;
+    background-color: white;
+    /* display: flex; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 14px;
+    overflow: hidden;
+    position: relative;
+}
+p{
+    font-size: 30px;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    line-height: 25px;
+}
+.main .left {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: orangered;
+    border-top-right-radius: 10px;
+    color: white;
+}
+.main .right {
+    position: relative;
+    border-top-right-radius: 10px;
+    line-height: 20px;
+}
+
+.main .left .day-number {
+    font-size: 60px;
+    padding: 0;
+    font-weight: bold;
+}
+.main .left .day-name {
+    font-size: 30px;
+    nav-down: -5px;
+}
+.month-name {
+    font-size: 30px;
+    padding-top: 50px;
+}
+.year {
+    font-size: 30px;
+}
